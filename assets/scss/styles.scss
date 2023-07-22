@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
 /*===== VARIABLES CSS =====*/
---header-height: 3rem;
+    :root{--header-height: 3rem;
     --font-semi: 600;
 
     /*===== Colores =====*/
@@ -36,7 +36,7 @@
         --normal-font-size: 1rem;
         --smaller-font-size: .875rem;
 }
-
+    }
 /*===== BASE =====*/
 *,::before,::after{
     box-sizing: border-box;
